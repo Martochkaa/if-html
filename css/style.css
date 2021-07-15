@@ -18,43 +18,43 @@ div {
     position: absolute;
     width: 296px;
 }
-.container1 {
+.container_headphones {
     margin: 80px 1040px 114px 104px;
 }
-.container2 {
+.container_communicate {
     margin: 80px 728px 114px 416px;
 }
-.container3 {
+.container_gadgets {
     margin: 80px 416px 114px 728px;
 }
-.container4 {
+.container_like {
     margin: 80px 103px 114px 1041px;
 }
-.image1 {
+.headphones {
     position: absolute;
     margin: 4px 111px 80px 111px;
     width: 75px;
     Height: 92px;
 }
-.image2 {
+.communicate {
     position: absolute;
     margin: 8px 107px 86px 105px;
     width: 83px;
     Height: 83px;
 }
-.image3 {
+.gadgets {
     position: absolute;
     margin: 17px 98px 101px 98px;
     width: 100px;
     Height: 67px;
 }
-.image4 {
+.like {
     position: absolute;
     margin: 4px 102px 96px 102px;
     width: 92px;
     Height: 83px;
 }
-.text1 {
+.text_headphones {
     position: absolute;
     width: 141px;
     height: 28px;
@@ -68,7 +68,7 @@ div {
     text-align: center;
     color: #383838;
 }
-.text2 {
+.text_communicate {
     position: absolute;
     width: 296px;
     height: 28px;
@@ -81,7 +81,7 @@ div {
     text-align: center;
     color: #383838;
 }
-.text3 {
+.text_gadgets {
     position: absolute;
     width: 168px;
     height: 28px;
@@ -95,7 +95,7 @@ div {
     text-align: center;
     color: #383838;
 }
-.text4 {
+.text_like {
     position: absolute;
     width: 225px;
     height: 28px;
