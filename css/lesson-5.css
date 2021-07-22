@@ -24,6 +24,7 @@
   }
   body {
     width: 1440px;
+    height: 630px;
     background: #10367C;
   }
 .container {
@@ -49,7 +50,7 @@ p {
     width: 233px;
     height: 122px;
 }
-footer {
+.footer {
     color: #FFFFFF;
     display: block;
     width: 100%;
@@ -82,9 +83,13 @@ footer {
     font-weight: 500;
     color: #FFFFFF;
 }
-.text {
+ul {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     color: #FFFFFF;
+    padding-left: 0px;
+}
+li {
+    list-style-type: none;
 }
