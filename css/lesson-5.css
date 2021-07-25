@@ -50,7 +50,7 @@ p {
     width: 233px;
     height: 122px;
 }
-.footer {
+.caption {
     color: #FFFFFF;
     display: block;
     width: 100%;
@@ -92,4 +92,5 @@ ul {
 }
 li {
     list-style-type: none;
+    margin-bottom: 24px;
 }
