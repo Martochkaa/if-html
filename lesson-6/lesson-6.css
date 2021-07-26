@@ -126,7 +126,7 @@ margin-left: 221px;}
     box-sizing: border-box;
     border-radius: 8px;
 }
-input[type="submit"] {
+button {
     width: 192px;
     background: #3077C6;
     border-radius: 8px;
@@ -135,46 +135,13 @@ input[type="submit"] {
     line-height: 28px;
     text-align: center;
     color: #FFFFFF; 
-}
-input[type="submit"]::-moz-placeholder {
     padding: 20px 57px;   
     font-family: Roboto;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
     color: #FFFFFF; 
-}
-input[type="submit"]::-webkit-input-placeholder { 
-    font-family: Roboto;
-    padding: 20px 57px;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: #FFFFFF; 
-}
-   input[type="submit"]:-ms-input-placeholder { 
-    font-family: Roboto;
-    padding: 20px 57px;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: #FFFFFF; 
-}
-   input[type="submit"]::-ms-input-placeholder { 
-    font-family: Roboto;
-    padding: 20px 57px;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: #FFFFFF; 
-}
-   input[type="submit"]::placeholder { 
-    font-family: Roboto;
-    padding: 20px 57px;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: #FFFFFF; 
+   
 } 
 input[type="text"] {
     width: 314px;
@@ -188,14 +155,18 @@ input[type="text"] {
     border: 3px solid #F3F3F4;
     box-sizing: border-box;
     border-radius: 8px;
+    padding-top: 22px;
+    padding-bottom: 21px;
 }
 input[type="date"] {
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 21px;
-text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding-bottom: 22px;
+    padding-top: 22px;
 }
 input[type="search"]
 {
@@ -210,6 +181,8 @@ input[type="search"]
     box-sizing: border-box;
     border-radius: 8px;
     padding-left: 24px;
+    padding-top: 21px;
+    padding-bottom: 22px;
 }
 
 .phone_app {
