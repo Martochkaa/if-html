@@ -1,5 +1,18 @@
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v27-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v27-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v27-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v27-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v27-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v27-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+
 .heading {
-font-family: Roboto;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 40px;
@@ -8,6 +21,13 @@ width: 306px;
 height: 47px;
 margin: 120px 567px 20px 567px;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
 hr {
     margin: 0px 670px 88px 670px;
     width: 100px;
@@ -15,6 +35,34 @@ hr {
     background: #F5BD41;
 }
 div {
+    width: 296px;
+}
+
+.container_headphones {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   margin-left: 104px;
+}
+
+.container_like {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 103px;
+}
+.container_communicate {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container_gadgets {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_headphones {
     position: absolute;
     width: 296px;
 }
@@ -69,10 +117,6 @@ div {
     color: #383838;
 }
 .text_communicate {
-    position: absolute;
-    width: 296px;
-    height: 28px;
-    top: 148px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -82,11 +126,6 @@ div {
     color: #383838;
 }
 .text_gadgets {
-    position: absolute;
-    width: 168px;
-    height: 28px;
-    left: 64px;
-    top: 148px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -96,11 +135,6 @@ div {
     color: #383838;
 }
 .text_like {
-    position: absolute;
-    width: 225px;
-    height: 28px;
-    left: 36px;
-    top: 148px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
