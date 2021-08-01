@@ -21,11 +21,13 @@ width: 306px;
 height: 47px;
 margin: 120px 567px 20px 567px;
 }
+
 .container {
     display: flex;
     justify-content: space-between;
     width: 1440px;
 }
+
 hr {
     margin: 0px 670px 88px 670px;
     width: 100px;
@@ -34,8 +36,8 @@ hr {
 }
 div {
     width: 296px;
-
 }
+
 .container_headphones {
     display: flex;
     align-items: center;
@@ -47,7 +49,7 @@ div {
     display: flex;
     align-items: center;
     flex-direction: column;
-margin-right: 103px;
+    margin-right: 103px;
 }
 .container_communicate {
     display: flex;
@@ -61,6 +63,49 @@ margin-right: 103px;
 }
 
 .text_headphones {
+    position: absolute;
+    width: 296px;
+}
+.container_headphones {
+    margin: 80px 1040px 114px 104px;
+}
+.container_communicate {
+    margin: 80px 728px 114px 416px;
+}
+.container_gadgets {
+    margin: 80px 416px 114px 728px;
+}
+.container_like {
+    margin: 80px 103px 114px 1041px;
+}
+.headphones {
+    position: absolute;
+    margin: 4px 111px 80px 111px;
+    width: 75px;
+    Height: 92px;
+}
+.communicate {
+    position: absolute;
+    margin: 8px 107px 86px 105px;
+    width: 83px;
+    Height: 83px;
+}
+.gadgets {
+    position: absolute;
+    margin: 17px 98px 101px 98px;
+    width: 100px;
+    Height: 67px;
+}
+.like {
+    position: absolute;
+    margin: 4px 102px 96px 102px;
+    width: 92px;
+    Height: 83px;
+}
+.text_headphones {
+    position: absolute;
+    width: 141px;
+    height: 28px;
     left: 77px;
     top: 148px;
     font-family: Roboto;
