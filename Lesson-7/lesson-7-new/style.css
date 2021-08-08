@@ -55,13 +55,36 @@ height: 40px;
 margin-left: 104px;
 margin-top: 51px;
 }
+h2 {
+    text-decoration: none;
+    color: #383838;
+}
+h2:hover
+{
+    text-decoration: underline;
+    color:#F5BD41 
+}
 a {
 text-decoration: none;
 color: #FFFFFF;
+display: inline-block;
+line-height: 1;
+}
+a:after
+ {
+display: block;
+content: "";
+height: 3px;
+width: 0%;
+transition: width 0.4s ease-in-out;
+background-color:#F5BD41;
+}
+a:hover::after,
+a:focus::after {
+    width: 100%;
 }
 a:hover {
-text-decoration: underline;
-color:#F5BD41 ;
+    color:#F5BD41 ;
 }
 .stays {
 margin-left: 684px;
@@ -243,13 +266,8 @@ line-height: 47px;
 width: 306px;
 height: 47px;
 margin-top: 120px;
+margin-bottom: 112px;
 margin-left: 567px;
-}
-hr {
-margin: 0px 670px 88px 670px; 
-width: 100px;
-height: 4px;
-background: #F5BD41;
 }
 .container_headphones {
 display: flex;
@@ -433,32 +451,631 @@ list-style-type: none;
 margin-bottom: 24px;
 }    
 .heading_logo {
-display: none;
+display: none;}
+
+.Homes_guests_loves {
+width: 1440px;
+height: 828px;
+left: 0px;
+top: 1469px;
+background: #EAF0F9;
 }
-    @media only screen and (max-width: 320px) {
+.heading_homes_guests_loves {
+height: 47px;
+padding-top: 120px;
+margin-bottom: 106px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+color: #383838;
+display: flex;
+justify-content: center;
+}
+.hotels {
+display: flex;
+justify-content: space-between;
+margin-left: 104px;
+margin-right: 105px;
+}
+.text_hotel_leopold {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #3077C6;
+margin-top: 24px;
+}
+.text_apartment_sunshine{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #3077C6;
+margin-top: 24px;
+}
+.text_villa_kunerad{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #3077C6;
+margin-top: 24px;
+}
+.text_hostel_friendship{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #3077C6;
+margin-top: 24px;
+}
+.location_leopold {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #BFBFBF;
+}
+.location_sunshine {
+font-family: Roboto;
+width: 295px;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #BFBFBF;
+}
+.location_kunerad {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #BFBFBF;
+}
+.location_frendship{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+color: #BFBFBF;
+}
+button {
+width: 40px;
+height: 40px;
+background: #F3F3F4;
+display: inline-block;
+border-radius: 50%;
+position: absolute;
+margin-left: 1212px;
+margin-top: 139px;
+margin-right: 0px;
+position: absolute;
+}
+
+
+  
+    
+
+@media (max-width: 1280px) {
+    .list_items {
+        display: none;}   
+    .headline {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 1280px;
+        display: flex;
+        justify-content: center;
+    }
+    .top {
+        display: none;
+    }
+    .Wat_do_we_offer {
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+    }
+    .all_containers {
+        margin-left: 0px;
+        margin-right: 0px;
+        justify-content: space-evenly;
+    }
+    .Homes_guests_loves {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 1680px;
+    }
+    .heading_homes_guests_loves {
+        padding-top: 0px;
+        display: flex;
+        justify-content: center;
+        width: 1280px;
+    }
+    .hotels {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 0px;
+        width: 1280px;
+    }
+    .headphones {
+        width: 52px;
+        height: 64px;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    button {
+        margin-left: 1240px;
+    }
+    .communicate {
+        width: 58px;
+        height: 58px;
+        margin-left: 36px;
+        margin-right: 0px;
+    }
+    .gadgets {
+        width: 70px;
+        height: 47px;
+        margin-left: 35px;
+        margin-right: 0px;
+    }
+    .like_img {
+        width: 64px;
+        height: 58px;
+        margin-left: 32px;
+        margin-right: 0px;
+    }
+    .container_headphones{
+        width: 160px;
+    }
+    .container_gadgets {
+        width: 184px;
+    }
+    .container_like {
+        width: 184px;
+    }
+    .container_communicate {
+        width: 184px;
+    }
+    .text_like {
+        font-size: 15px;
+        line-height: 18px;
+        text-align: start;
+    }
+    .text_headphones {
+        font-size: 15px;
+        line-height: 18px;
+        text-align: start;
+    }
+    .text_gadgets {
+        font-size: 15px;
+        line-height: 18px;
+        text-align: start;
+        margin-left: 35px;
+    }
+    .text_communicate {
+        font-size: 15px;
+        line-height: 18px;
+        text-align: start;
+    }
+    .heading_about {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .heading_about:hover {
+        text-decoration: underline;
+    }
+    .container_property_types {
+        margin-right: 0px;
+    }
+    .heading_property {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .heading_property:hover {
+        text-decoration: underline;
+    }
+    .heading_support {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .container_about {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .container_support{
+        margin-left: 120px;
+        margin-right: 0px;
+    }
+    .container {
+        justify-content: space-evenly;
+        margin-left: 0px;
+        height: 100px;
+        width: 1280px;
+    }
+    .heading_logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        margin-left: 289px;
+        width: 208px;
+        height: 39px;
+        top: 2785px;
+    }
+    .caption {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        width: 1280px;
+    }
     .last {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 1680px;
+    }
+    .heading_logo {
+        display: flex;
+        justify-content: center;
+        width: 1280px;
+        margin-left: 0px;
+        height: 40px;
+    }
+}
+@media (max-width: 1024px) {
+    .Wat_do_we_offer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .list_items {
+        display: none;} 
+    .top {
+        display: none;
+        }   
+    .headline {
+        margin-left: 0px;
+        width: 1280px;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .all_containers {
+        flex-direction: column;
+        align-items: center;
+        width: 1280px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+    .Homes_guests_loves {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 720px;
+        width: 1280px;
+    }
+    .heading_homes_guests_loves {
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+    .leopold_img {
+        width: 180px;
+        height: 180px;
+    }
+    .sunshine_img {
+        width: 180px;
+        height: 180px;
+    }
+    .kunerad_img {
+        width: 180px;
+        height: 180px;}
+
+    .frendship_img {
+        width: 180px;
+        height: 180px;
+    }
+    .hotels {
+        width: 1024px;
+        margin-left: 110px;
+    }
+    .text_hotel_leopold {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .text_villa_kunerad 
+    {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .text_hostel_friendship {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .text_apartment_sunshine {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .location_frendship {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .location_kunerad {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .location_leopold {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .location_sunshine {
+        font-size: 20px;
+        line-height: 25px;
+        width: 220px;
+    }
+    button {
+        margin-left: 1005px;
+        margin-top: 80px;
+    }
+    .container_headphones {
+        margin-bottom: 34px;
+    }     
+    .container_gadgets {
+        margin-bottom: 34px; 
+    }
+    .container_communicate {
+        margin-bottom: 34px;
+    }
+    .text_like {
+        margin-left: 30px;
+    }
+    .heading_logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        width: 1280px;
+        height: 40px;
+        top: 2785px;
+    }
+    .heading_logo_last {
+        width: 131px;
+        height: 45px;
+    }
+    .container_about {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 41px;
+        height: 18px;
+    }
+    .container_property_types {
+        width: 41px;
+        height: 18px;
+        margin-right: 0px;
+    }
+    .container_support {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 41px;
+        height: 18px;
+    }
+    .container {
+        justify-content: space-evenly;
+        align-items: center;
+        width: 1280px;
+        margin-bottom: 65px;
+        margin-left: -55px;
+    }
+    .last {
+        width: 1280px;
+        background: #10367C;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .heading_about {
+        text-decoration: none;
+        font-size: 25px;
+    }
+    .heading_about:hover {
+        text-decoration: underline;
+    }
+    .heading_property {
+        text-decoration: none;
+        font-size: 25px;
+        width: 164px;
+    }
+    .heading_property:hover {
+        text-decoration: underline;
+    }
+    .heading_support {
+        text-decoration: none;
+        font-size: 25px;
+    }
+    .heading_support:hover 
+    {
+        text-decoration: underline;
+    }
+    .caption {
+        font-size: 20px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .top {
+        display: none;
+    }
+    .villa_kunerad {
+        display: none;
+    }
+    .hostel_friendship {
+        display: none
+    }
+    .Wat_do_we_offer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 1680px;
+    }
+    .headline {
+        margin-left: 265px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 34px;
+        margin-top: 24px;
+        width: 1680px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .all_containers {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 1680px;
+    }
+    .container_headphones {
+        margin-bottom: 34px;
+    }
+    .container_communicate {
+        margin-bottom: 34px;
+    }
+    .container_gadgets {
+        margin-bottom: 34px;
+    }
+    .text_like {
+        margin-left: 30px;
+    }
+    .list_items {
+        display: none;
+        }
+    .container {
+        align-items: center;
+        justify-content: space-evenly;
+        width: 1680px;
+        }
+    .container_about {
+        height: 18px;
+        margin-right: 0px;
+        width: 75px;
+        }
+    .container_property_types {
+       height: 18px;
+       width: 133px;
+       margin-right: 0px;
+        }
+    .container_support {
+        height: 18px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 133px;
+    }    
+    .heading_logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        margin-left: 0px;
+        width: 1680px;
+        height: 29px;
+        top: 2785px;
+        }
+    .caption {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+        width: 1680px;
+    }    
+    .heading_about {
+        text-decoration: none;
+    }
+    .heading_about:hover {
+        text-decoration: underline;
+    }
+    .heading_property {
+        text-decoration: none;
+    }
+    .heading_property:hover {
+        text-decoration: underline;
+    }
+    .heading_support {
+        text-decoration: none;
+    }
+    .heading_support:hover 
+    {
+        text-decoration: underline;
+    }
+    .Homes_guests_loves {
+        display: flex;
+        flex-direction: column;
+        width: 1680px;
+    }
+    .hotels {
+        margin-left: 0px;
+        margin-left: 0px;
+        display: flex ;
+        justify-content: space-evenly;
+        width: 1680px;
+    }
+    .heading_homes_guests_loves {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        width: 1680px;
+    }
+    button {
+        margin-left: 780px;
+    }
+    .last {
+        width: 1680px;
+        background: #10367C;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    }
+
+@media (max-width: 320px) {
+        .last {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    background: #10367C;
+    height: 203px;
     }
     .heading_logo 
     {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
-    margin-left: 128px;
-    width: 98px;
+    margin-left: 0px;
+    width: 1280px;
     height: 19px;
     top: 2785px;
     }
-    .list {
+    .list_items {
     display: none;
     }
     .container {
-    width: 360px;
+    width: 1280px;
     height: 18px;
-    justify-content: center;
-    margin-left: 30px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
     }
     .heading_about {
     font-style: normal;
@@ -468,10 +1085,7 @@ display: none;
     text-align: center;
     text-decoration-line: underline;
     }
-    .container_about {
-    margin-left: 67px;
-    margin-right: 16px;
-    }
+
     .heading_property {
     font-style: normal;
     font-weight: 500;
@@ -481,11 +1095,9 @@ display: none;
     text-decoration-line: underline;
     }
     .container_property_types {
-    margin-right: 16px; 
+    margin-right: 0px
     }
-    .container_support {
-    margin-right: 68px;
-    }
+    
     .heading_support {
     font-style: normal;
     font-weight: 500;
@@ -494,12 +1106,13 @@ display: none;
     text-decoration-line: underline;
     }
     .caption {
-    padding-top: 32px;
     margin-bottom: 40px;
-    margin-left: 71px;
-    width: 219px;
+    margin-left: 0px;
+    width: 1280px;
     font-size: 12px;
     line-height: 14px;
+    display: flex;
+    justify-content: center;
     }
     .all_containers {
     display: flex;
@@ -507,8 +1120,7 @@ display: none;
     flex-direction: column;
     align-items: center;
     height: 641px;
-    width: 360px;
-    margin-left: 0px;
+    width: 1280px;
     }
     .text_headphones {
     font-family: Roboto;
@@ -518,6 +1130,7 @@ display: none;
     line-height: 18px;
     text-align: center;
     color: #383838;
+    margin-bottom: 47px;
     }
     .text_communicate {
     font-family: Roboto;
@@ -528,6 +1141,7 @@ display: none;
     text-align: center;
     color: #383838;
     width: 214px;
+    margin-bottom: 43px;
     }    
     .text_gadgets {
     font-family: Roboto;
@@ -538,6 +1152,7 @@ display: none;
     text-align: center;
     color: #383838;
     width: 214px;
+    margin-bottom: 34px;
     }   
     .text_like {
     font-family: Roboto;
@@ -548,6 +1163,8 @@ display: none;
     text-align: center;
     color: #383838;
     width: 214px;
+    align-items: center;
+    margin-left: 0px;
     }
     .headline {
     font-style: normal;
@@ -556,11 +1173,10 @@ display: none;
     line-height: 33px;
     color: #383838;
     text-align:center;
-    margin-left: 30px;     
-    }
-    hr {
-    display: none;
-    }
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+}
     .headphones {
     height: 64px;
     width: 53px;
@@ -579,33 +1195,24 @@ display: none;
     .like_img {
     width: 64px;
     height: 58px;
-    margin-left: 40px;
     margin-left: 80px;
     }
     .container_headphones {
-    margin-left: 73px;
-    margin-right: 73px;
     margin-bottom: 35px;
     width: 214px;
     height: 104px;
     }
     .container_communicate {
-    margin-left: 73px;
-    margin-right: 73px;  
     margin-bottom: 35px;
     width: 214px;
     height: 104px;
     }
     .container_gadgets {
-    margin-left: 73px;
-    margin-right: 73px;
     margin-bottom: 35px;
     width: 214px;
     height: 104px;
     }
     .container_like {
-    margin-left: 73px;
-    margin-right: 73px;
     margin-bottom: 35px;
     width: 214px;
     height: 104px;
@@ -641,314 +1248,45 @@ display: none;
     {
         text-decoration: underline;
     }
-    }
-    @media only screen and (max-width: 768px) {
-    .top {
+    .villa_kunerad {
         display: none;
     }
-    .headline {
-        margin-left: 265px;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 28px;
-        line-height: 33px;
-        margin-bottom: 34px;
-        margin-top: 24px;
-    }
-    hr {
+    .hostel_friendship {
         display: none;
     }
-    .all_containers {
+    .hotel_leopold {
+        width: 156px;
+        height: 155px;
+    }
+    .apartment_sunshine{
+        width: 156px;
+    }
+    .Homes_guests_loves {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        align-items: center;
+        width: 1280px;
     }
-    .container_headphones {
-        margin-bottom: 34px;
-    }
-    .container_communicate {
-        margin-bottom: 34px;
-    }
-    .container_gadgets {
-        margin-bottom: 34px;
-    }
-    .text_like {
-        margin-left: 30px;
-    }
-    .list {
-        display: none;
-        }
-    .container {
-        align-items: center;
-        justify-content: center;
-        width: 768px;
-        }
-    .container_about {
-        height: 18px;
-        margin-right: 0px;
-        width: 75px;
-        }
-    .container_property_types {
-       height: 18px;
-       margin-left: 0px;
-       margin-right: 0px;
-       width: 133px;
-        }
-    .container_support {
-        height: 18px;
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 133px;
-    }    
-    .heading_logo {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 40px;
-        margin-left: 325px;
-        width: 128px;
-        height: 29px;
-        top: 2785px;
-        }
-    .caption {
-        margin-top: 64px;
-        margin-left: 280px;
-        margin-bottom: 0px;
-        margin-right: 0px;
-    }    
-    .heading_about {
-        text-decoration: none;
-    }
-    .heading_about:hover {
-        text-decoration: underline;
-    }
-    .heading_property {
-        text-decoration: none;
-    }
-    .heading_property:hover {
-        text-decoration: underline;
-    }
-    .heading_support {
-        text-decoration: none;
-    }
-    .heading_support:hover 
-    {
-        text-decoration: underline;
-    }
-    }
-    @media only screen and (max-width: 1024px) {
-        .list {
-            display: none;}
-        hr {
-            display: none;
-            }    
-        .top {
-            display: none;
-            }   
-        .headline {
-            margin-left: 375px;
-        }
-        .all_containers {
-            flex-direction: column;
-            align-items: center;
-        }
-        .container_headphones {
-            margin-bottom: 34px;
-        }     
-        .container_gadgets {
-            margin-bottom: 34px; 
-        }
-        .container_communicate {
-            margin-bottom: 34px;
-        }
-        .text_like {
-            margin-left: 30px;
-        }
-        .heading_logo {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 40px;
-            margin-left: 395px;
-            width: 208px;
-            height: 39px;
-            top: 2785px;
-        }
-        .container_about {
-            margin-left: 0px;
-            margin-right: 0px;
-            width: 41px;
-            height: 18px;
-        }
-        .container_property_types {
-            margin-left: 0px;
-            margin-right: 0px;
-            width: 98px;
-            height: 18px;
-        }
-        .container_support {
-            margin-left: 0px;
-            margin-right: 0px;
-            width: 54px;
-            height: 18px;
-        }
-        .container {
-            justify-content: space-around;
-            align-items: center;
-            width: 1024px;
-            margin-bottom: 124px;
-        }
-        .last {
-            width: 1024px;
-            background: #10367C;
-        }
-        .heading_about {
-            text-decoration: none;
-            font-size: 20px;
-        }
-        .heading_about:hover {
-            text-decoration: underline;
-        }
-        .heading_property {
-            text-decoration: none;
-            font-size: 20px;
-        }
-        .heading_property:hover {
-            text-decoration: underline;
-        }
-        .heading_support {
-            text-decoration: none;
-            font-size: 20px;
-        }
-        .heading_support:hover 
-        {
-            text-decoration: underline;
-        }
-        .caption {
-            font-size: 18px;
-            margin-bottom: 0px;
-        }
-    }
-    @media only screen and (max-width: 1280px){
-    .list {
-        display: none;}
-    hr {
-        display: none;
-        }    
-    .top {
-        display: none;}
-    .headline {
-        margin-left: 232px;
-        margin-right: 0px;
-    }
-    .all_containers {
-        margin-left: 60px;
-        margin-right: 0px;
-        justify-content: flex-start;
-    }
-    .headphones {
-        width: 52px;
-        height: 64px;
-        margin-left: 20px;
-        margin-right: 0px;
-    }
-    .communicate {
-        width: 58px;
-        height: 58px;
-        margin-left: 36px;
-        margin-right: 0px;
-    }
-    .gadgets {
-        width: 70px;
-        height: 47px;
-        margin-left: 35px;
-        margin-right: 0px;
-    }
-    .like_img {
-        width: 64px;
-        height: 58px;
-        margin-left: 32px;
-        margin-right: 0px;
-    }
-    .container_headphones{
-        width: 160px;
-
-    }
-    .container_gadgets {
-        width: 184px;
-    }
-    .container_like {
-        width: 184px;
-    }
-    .container_communicate {
-        width: 184px;
-    }
-    .text_like {
-        font-size: 15px;
-        line-height: 18px;
-        text-align: start;
-    }
-    .text_headphones {
-        font-size: 15px;
-        line-height: 18px;
-        text-align: start;
-    }
-    .text_gadgets {
-        font-size: 15px;
-        line-height: 18px;
-        text-align: start;
-        margin-left: 35px;
-    }
-    .text_communicate {
-        font-size: 15px;
-        line-height: 18px;
-        text-align: start;
-    }
-    .heading_about {
-        text-decoration: none;
-        font-size: 20px;
-    }
-    .heading_about:hover {
-        text-decoration: underline;
-    }
-    .heading_property {
-        text-decoration: none;
-        font-size: 20px;
-    }
-    .heading_property:hover {
-        text-decoration: underline;
-    }
-    .heading_support {
-        text-decoration: none;
-        font-size: 20px;
-    }
-    .container_about {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .container_property_types {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .container_support{
-        margin-left: 120px;
-        margin-right: 0px;
-    }
-    .container {
-        justify-content: start;
-        margin-left: 115px;
-        height: 100px;
-    }
-    .heading_logo {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 40px;
-        margin-left: 289px;
-        width: 208px;
-        height: 39px;
-        top: 2785px;
-    }
-    .caption {
+    .heading_homes_guests_loves {
+        font-size: 28px;
+        line-height: 33px;
+        padding-top: 0px;
         margin-top: 0px;
-        margin-bottom: 0px;
+        width: 1280px;
+    }   
+    .hotels {
+        width: 1280px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 0px;
+        margin-right: 0px;
     }
-}
+    button {
+        margin-left: 690px;
+    }
+    .Wat_do_we_offer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    }
