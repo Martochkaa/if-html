@@ -263,16 +263,18 @@ font-style: normal;
 font-weight: 500;
 font-size: 40px;
 line-height: 47px;
-width: 306px;
+width: 1440px;
 height: 47px;
 margin-top: 120px;
 margin-bottom: 112px;
-margin-left: 567px;
+display: flex;
+justify-content: center;
 }
 .container_headphones {
 display: flex;
 justify-content: center;
 flex-direction: column;
+align-items: center;
 width: 296px;
 height: 176px;
 }
@@ -280,6 +282,7 @@ height: 176px;
 display: flex;
 justify-content: center;
 flex-direction: column;
+align-items: center;
 width: 296px;
 height: 178px;
 }
@@ -287,6 +290,7 @@ height: 178px;
 display: flex;
 justify-content: center;
 flex-direction: column;
+align-items: center;
 width: 296px;
 height: 184px;
 }
@@ -294,31 +298,28 @@ height: 184px;
 display: flex;
 justify-content: center;
 flex-direction: column;
+align-items: center;
 width: 296px;
 height: 183px;
 }
 .headphones {
 width: 75px;
 Height: 92px;
-margin-left: 110px;
 margin-bottom: 52px;
 }
 .communicate { 
 width: 83px;
 Height: 83px;
-margin-left: 105px;
 margin-bottom: 56px;
 }
 .gadgets {
 width: 100px;
 Height: 67px;
-margin-left: 98px;
 margin-bottom: 64px;
 }
 .like_img {
 width: 92px;
 Height: 83px;
-margin-left: 102px;
 margin-bottom: 60px;
 }
 .text_headphones {
@@ -381,6 +382,7 @@ margin-bottom: 120px;
 padding-bottom: 120px;
 background: #10367C;
 padding-top: 120px;
+width: 1440px;
 }
 .heading_logo {
 display: block;
@@ -410,13 +412,15 @@ height: 122px;
 .caption {
 color: #FFFFFF;
 display: block;
-width: 100%;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 16px;
-margin: 64px 1081px 120px 103px;   
+margin-top: 64px;
+margin-bottom: 120px;
+margin-left: 103px;
+width: 1440px;
 }
 .heading_about {
 width: 54px;
@@ -475,9 +479,8 @@ justify-content: center;
 }
 .hotels {
 display: flex;
-justify-content: space-between;
-margin-left: 104px;
-margin-right: 105px;
+justify-content: space-evenly;
+width: 1440px;
 }
 .text_hotel_leopold {
 font-family: Roboto;
@@ -555,26 +558,19 @@ background: #F3F3F4;
 display: inline-block;
 border-radius: 50%;
 position: absolute;
-margin-left: 1212px;
+margin-left: 1335px;
 margin-top: 139px;
 margin-right: 0px;
-position: absolute;
 }
-
-
+.Wat_do_we_offer {
+width: 1440px;
+}
   
     
 
 @media (max-width: 1280px) {
     .list_items {
         display: none;}   
-    .headline {
-        margin-left: 0px;
-        margin-right: 0px;
-        width: 1280px;
-        display: flex;
-        justify-content: center;
-    }
     .top {
         display: none;
     }
@@ -592,46 +588,30 @@ position: absolute;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 1680px;
     }
     .heading_homes_guests_loves {
         padding-top: 0px;
         display: flex;
         justify-content: center;
-        width: 1280px;
-    }
-    .hotels {
-        display: flex;
-        justify-content: space-evenly;
-        margin-left: 0px;
-        width: 1280px;
     }
     .headphones {
         width: 52px;
         height: 64px;
-        margin-left: 20px;
-        margin-right: 0px;
     }
     button {
-        margin-left: 1240px;
+        margin-left: 1335px;
     }
     .communicate {
         width: 58px;
         height: 58px;
-        margin-left: 36px;
-        margin-right: 0px;
     }
     .gadgets {
         width: 70px;
         height: 47px;
-        margin-left: 35px;
-        margin-right: 0px;
     }
     .like_img {
         width: 64px;
         height: 58px;
-        margin-left: 32px;
-        margin-right: 0px;
     }
     .container_headphones{
         width: 160px;
@@ -648,23 +628,18 @@ position: absolute;
     .text_like {
         font-size: 15px;
         line-height: 18px;
-        text-align: start;
     }
     .text_headphones {
         font-size: 15px;
         line-height: 18px;
-        text-align: start;
     }
     .text_gadgets {
         font-size: 15px;
         line-height: 18px;
-        text-align: start;
-        margin-left: 35px;
     }
     .text_communicate {
         font-size: 15px;
         line-height: 18px;
-        text-align: start;
     }
     .heading_about {
         text-decoration: none;
@@ -697,85 +672,41 @@ position: absolute;
     }
     .container {
         justify-content: space-evenly;
-        margin-left: 0px;
         height: 100px;
-        width: 1280px;
     }
     .heading_logo {
         display: flex;
         justify-content: center;
         margin-bottom: 40px;
-        margin-left: 289px;
-        width: 208px;
+        width: 1440px;
         height: 39px;
         top: 2785px;
     }
     .caption {
-        margin-top: 0px;
-        margin-bottom: 0px;
         margin-left: 0px;
         display: flex;
         justify-content: center;
-        width: 1280px;
-    }
-    .last {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        width: 1680px;
-    }
-    .heading_logo {
-        display: flex;
-        justify-content: center;
-        width: 1280px;
-        margin-left: 0px;
-        height: 40px;
     }
 }
 @media (max-width: 1024px) {
-    .Wat_do_we_offer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
     .list_items {
         display: none;} 
     .top {
         display: none;
         }   
     .headline {
-        margin-left: 0px;
-        width: 1280px;
-        display: flex;
-        justify-content: center;
         margin-top: 50px;
         margin-bottom: 100px;
     }
     .all_containers {
         flex-direction: column;
         align-items: center;
-        width: 1280px;
-        margin-left: 0px;
-        justify-content: center;
     }
     .Homes_guests_loves {
         display: flex;
         justify-content: center;
         flex-direction: column;
         height: 720px;
-        width: 1280px;
-    }
-    .heading_homes_guests_loves {
-        margin-left: 0px;
-        padding-top: 10px;
-    }
-    .leopold_img {
-        width: 180px;
-        height: 180px;
-    }
-    .sunshine_img {
-        width: 180px;
-        height: 180px;
     }
     .kunerad_img {
         width: 180px;
@@ -785,16 +716,11 @@ position: absolute;
         width: 180px;
         height: 180px;
     }
-    .hotels {
-        width: 1024px;
-        margin-left: 110px;
-    }
     .text_hotel_leopold {
         font-size: 20px;
         line-height: 25px;
     }
-    .text_villa_kunerad 
-    {
+    .text_villa_kunerad {
         font-size: 20px;
         line-height: 25px;
     }
@@ -824,8 +750,8 @@ position: absolute;
         width: 220px;
     }
     button {
-        margin-left: 1005px;
-        margin-top: 80px;
+        margin-left: 1190px;
+        margin-top: 75px;
     }
     .container_headphones {
         margin-bottom: 34px;
@@ -836,19 +762,8 @@ position: absolute;
     .container_communicate {
         margin-bottom: 34px;
     }
-    .text_like {
-        margin-left: 30px;
-    }
-    .heading_logo {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 40px;
-        width: 1280px;
-        height: 40px;
-        top: 2785px;
-    }
     .heading_logo_last {
-        width: 131px;
+        width: 170px;
         height: 45px;
     }
     .container_about {
@@ -869,18 +784,7 @@ position: absolute;
         height: 18px;
     }
     .container {
-        justify-content: space-evenly;
-        align-items: center;
-        width: 1280px;
         margin-bottom: 65px;
-        margin-left: -55px;
-    }
-    .last {
-        width: 1280px;
-        background: #10367C;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
     }
     .heading_about {
         text-decoration: none;
@@ -908,10 +812,15 @@ position: absolute;
     .caption {
         font-size: 20px;
         margin-bottom: 0px;
-        display: flex;
-        justify-content: center;
-        margin-left: 0px;
-    }
+}
+    .sunshine_img {
+        width: 180px;
+        height: 180px;
+}
+    .leopold_img {
+        width: 180px;
+        height: 180px;
+}
 }
 @media (max-width: 768px) {
     .top {
@@ -923,34 +832,13 @@ position: absolute;
     .hostel_friendship {
         display: none
     }
-    .Wat_do_we_offer {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        width: 1680px;
-    }
     .headline {
-        margin-left: 265px;
         font-style: normal;
         font-weight: 500;
         font-size: 28px;
         line-height: 33px;
         margin-bottom: 34px;
         margin-top: 24px;
-        width: 1680px;
-        margin-left: 0px;
-        display: flex;
-        justify-content: center;
-    }
-    .all_containers {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        width: 1680px;
-    }
-    .container_headphones {
-        margin-bottom: 34px;
     }
     .container_communicate {
         margin-bottom: 34px;
@@ -958,16 +846,8 @@ position: absolute;
     .container_gadgets {
         margin-bottom: 34px;
     }
-    .text_like {
-        margin-left: 30px;
-    }
     .list_items {
         display: none;
-        }
-    .container {
-        align-items: center;
-        justify-content: space-evenly;
-        width: 1680px;
         }
     .container_about {
         height: 18px;
@@ -976,30 +856,14 @@ position: absolute;
         }
     .container_property_types {
        height: 18px;
-       width: 133px;
+       width: 75px;
        margin-right: 0px;
         }
     .container_support {
         height: 18px;
         margin-left: 0px;
         margin-right: 0px;
-        width: 133px;
-    }    
-    .heading_logo {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 40px;
-        margin-left: 0px;
-        width: 1680px;
-        height: 29px;
-        top: 2785px;
-        }
-    .caption {
-        margin-left: 0px;
-        margin-right: 0px;
-        display: flex;
-        justify-content: center;
-        width: 1680px;
+        width: 75px;
     }    
     .heading_about {
         text-decoration: none;
@@ -1023,47 +887,26 @@ position: absolute;
     .Homes_guests_loves {
         display: flex;
         flex-direction: column;
-        width: 1680px;
     }
-    .hotels {
-        margin-left: 0px;
-        margin-left: 0px;
-        display: flex ;
-        justify-content: space-evenly;
-        width: 1680px;
+    .leopold_img {
+        width: 100%;
+        height: 66%;
     }
-    .heading_homes_guests_loves {
-        padding-top: 40px;
-        display: flex;
-        justify-content: center;
-        width: 1680px;
-    }
+    .sunshine_img {
+        width: 100%;
+        height: 66%;}
+
     button {
-        margin-left: 780px;
-    }
-    .last {
-        width: 1680px;
-        background: #10367C;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
+        margin-left: 870px;
+        margin-top: 130px;
+        }
     }
 
 @media (max-width: 320px) {
-        .last {
-    display: flex;
-    flex-direction: column;
-    background: #10367C;
+    .last {
     height: 203px;
     }
-    .heading_logo 
-    {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
-    margin-left: 0px;
-    width: 1280px;
+    .heading_logo {
     height: 19px;
     top: 2785px;
     }
@@ -1071,11 +914,7 @@ position: absolute;
     display: none;
     }
     .container {
-    width: 1280px;
     height: 18px;
-    margin-left: 0px;
-    display: flex;
-    justify-content: space-evenly;
     }
     .heading_about {
     font-style: normal;
@@ -1107,20 +946,16 @@ position: absolute;
     }
     .caption {
     margin-bottom: 40px;
-    margin-left: 0px;
-    width: 1280px;
     font-size: 12px;
     line-height: 14px;
-    display: flex;
-    justify-content: center;
     }
     .all_containers {
-    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     height: 641px;
-    width: 1280px;
+    width: 1440px;
+    margin-bottom: 0px;
     }
     .text_headphones {
     font-family: Roboto;
@@ -1175,27 +1010,26 @@ position: absolute;
     text-align:center;
     display: flex;
     justify-content: center;
-    width: 1280px;
 }
     .headphones {
     height: 64px;
     width: 53px;
-    margin-left: 80px;
+    margin-bottom: 35px;
     }
     .communicate {
     width: 58px;
     height: 58px;
-    margin-left: 80px;
+    margin-bottom: 35px;
     }
     .gadgets {
     width: 70px;
     height: 47px;
-    margin-left: 80px;
+    margin-bottom: 35px;
     }
     .like_img {
     width: 64px;
     height: 58px;
-    margin-left: 80px;
+    margin-bottom: 35px;
     }
     .container_headphones {
     margin-bottom: 35px;
@@ -1254,35 +1088,19 @@ position: absolute;
     .hostel_friendship {
         display: none;
     }
-    .hotel_leopold {
-        width: 156px;
-        height: 155px;
-    }
-    .apartment_sunshine{
-        width: 156px;
-    }
     .Homes_guests_loves {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        width: 1280px;
     }
     .heading_homes_guests_loves {
         font-size: 28px;
         line-height: 33px;
         padding-top: 0px;
         margin-top: 0px;
-        width: 1280px;
     }   
-    .hotels {
-        width: 1280px;
-        display: flex;
-        justify-content: space-evenly;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
     button {
-        margin-left: 690px;
+        margin-left: 695px;
     }
     .Wat_do_we_offer {
         display: flex;
