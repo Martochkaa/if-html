@@ -215,7 +215,7 @@ header {
     text-align: center;
     color: #FFFFFF; 
     } 
-    input[type="text"] {
+    input .Adults_Children_Room {
     width: 314px;
     font-family: Roboto;
     font-style: normal;
@@ -246,7 +246,6 @@ header {
     .phone_app {
     display: flex;
     justify-content: center;
-    margin-top: 120px;
     }
     .icon_google {
     width: 135px;
@@ -810,11 +809,142 @@ header {
     opacity: 1;
     transition: opacity .3s;
 }
+.Guests_reviews_heading {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #383838;
+    padding-top: 120px;
+    margin-bottom: 104px;
+}
+.Guests_img {
+    display: flex;
+    justify-content: space-around;
+}
+.price {
+    margin-top: -57px;
+    background-color: rgba(56, 56, 56, 0.7);
+    position: absolute;
+    width: 15.3%;
+}
+.price_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3077C6;
+}
+.mention {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.grade {
+    display: flex;
+    flex-direction: column;
+}
+.place_rokoko, .place_king, .place_ubud {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3077C6;
+}
+.rating {
+    background: #10367C;
+    border-radius: 8px;
+    width: 48px;
+    height: 32px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    margin-left: 33px;
+}
+.rewiews {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #BFBFBF;
+}
+.user {
+    display: flex;
+}
+.guest_photo {
+    width: 53px;
+    height: 53px;
+    margin-left: 30px;
+}
+.information_about_user {
+    margin-left: 21px;
+}
+.name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #383838;
+    margin-bottom: 8px;
+}
+.homeland {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BFBFBF;
+    margin-bottom: 0px;
+}
+.commentary {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #383838;
+    margin: 24px;
+}
+.Ubud, .King_Kong, .Rokoko {
+    width: 15%;
+}
+.King_img, .Ubud_img, .Rokoko_img {
+    width: 102%;
+}
+.sign_up_on_the_small_screen {
+    display: none;
+}
+.container_calendar {
+    display: flex;
+    width: 36%;
+}
+
 
 @media (max-width: 1280px) {  
-      .top {
-          display: none;
-      }
+        #date {
+            margin-left: 109px;
+        }
         .Wat_do_we_offer {
             display: flex;
             justify-content: center;
@@ -955,13 +1085,118 @@ header {
             height: 37px;
             width: 100px;
         }
+        .Rokoko {
+            display: none;
+        }
+        .King_Kong {
+            display: none;
+        }
+        .Ubud {
+            width: 50%;
+        }
+        .price {
+            width: 51%;
+        }
+        .mention {
+            justify-content: space-between;
+        }
+        .Guests_reviews {
+            background: #EAF0F9;
+        }
+        
     }
 @media (max-width: 1024px) {
+    .label {
+        display: none;
+    }
+    .top {
+        width: auto;
+        background-position: 88% 100%;
+        background-size: cover;
+        height: 100%;
+    }
+    .icon_burger {
+        width: 24px;
+        height: 22px;
+        display: block;
+        position: relative;
+    }
+    header {
+        margin-left: 20px;
+        padding-top: 12px;
+    }
+        .container_heading {
+            width: 74%;
+        }
+        .container_calendar {
+            width: 100%;
+            justify-content: space-between;
+        }
+        input[type="date"] {
+            width: 49%;
+            height: 48px;
+            margin-bottom: 8px;
+        }
+        .place_to_request {
+            flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background: #F5BD41;
+        border: 4px solid #F5BD41;
+        box-sizing: border-box;
+        }
+        input[type="search"] {
+            width: 100%;
+            height: 48px;
+            margin-bottom: 8px;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+            font-weight: 500;
+            color: #383838;
+        }
+        input[type="submit"] {
+            height: 48px;
+            width: 100%;
+            margin-top: 8px;
+        }
+        .Adults_Children_Room {
+            height: 48px;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+            font-weight: 500;
+            color: #383838;
+        }
+        .place_to_request {
+            margin-bottom: 57px;
+            height: 328px;
+
+        }
+        .menu {
+            width: 24px;
+            height: 16px;
+        }
+        .account_img {
+            height: 24px;
+            width: 24px;
+        }
+        .night_img {
+            height: 16px;
+            width: 16px;
+        }
+        .label {
+            margin-top: 40px;
+        }
+        .container_middle {
+            padding: 52px 20px 31px;
+        }
+        .stays, .attractions {
+            display: none;
+        }
         .list_items {
             display: none;}   
-        .top {
-            display: none;
-            }   
+
         .headline {
             margin-top: 50px;
             margin-bottom: 100px;
@@ -1065,11 +1300,20 @@ header {
             line-height: 18px;
             width: 159px;
         }
+        
     }
 @media (max-width: 768px) {
-        .top {
-            display: none;
-        }
+    .heading {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .logo {
+        width: 121px;
+        height: 24px;
+    }
+    .place_to_request {
+        margin-bottom: 107px;
+    }
         .villa_kunerad {
             display: none;
         }
@@ -1184,11 +1428,111 @@ header {
             padding-top: 40px;
             margin-bottom: 32px;
         }
+        h3 {
+            font-size: 15px;
+        line-height: 18px;
+        }
+        .place_ubud {
+            font-size: 15px;
+            line-height: 18px;
+        }
+        .rating {
+            width: 39px;
+            height: 26px;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .rewiews {
+            font-size: 12px;
+            line-height: 14px;
+        }
+        .name {
+            font-size: 15px;
+            line-height: 18px;
+        }
+        .homeland 
+        {
+            font-size: 15px;
+            line-height: 18px;
+        }
+        .commentary {
+            font-size: 15px;
+            line-height: 18px;
+        }
+        .guest_photo {
+            width: 43px;
+            height: 43px;
+        }
+        .Guests_reviews_heading {
+            margin-bottom: 32px;
+            padding-top: 40px;
+        }
+        .sign_up_on_the_small_screen {
+            padding-top: 24px;
+            height: 106px;
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .close_on_the_small_screen {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            opacity: 0.3;
+            left: 8%;
+        }
+        .close_on_the_small_screen:hover {
+            opacity: 1;
+        }
+        .close_on_the_small_screen:before, .close_on_the_small_screen:after {
+            position: absolute;
+            left: 7%;
+            content: ' ';
+            height: 33px;
+            width: 2px;
+            background: #BFBFBF;
+        }
+        .close_on_the_small_screen:before {
+            transform: rotate(45deg);
+        }
+        .close_on_the_small_screen:after {
+            transform: rotate(-45deg);
+        }
+        .label_triphouse {
+            background: #3077C6;
+        border-radius: 4px;
+        height: 58px;
+        width: 58px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .label_triphous_img {
+            width: 89%;
+            height: 22%;
+        }
+        .sign_up_on_the_small_screen_text {
+            margin-left: 16px;
+            width: 36%;
+        }
+        .install {
+            font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #3077C6;
+        margin-top: -6px;
+        }
     }
     
 @media (max-width: 320px) {
         .last_block {
         height: 203px;
+        }
+        .place_to_request {
+            margin-bottom: 82px;
         }
         .list_items {
         display: none;
@@ -1269,7 +1613,6 @@ header {
         text-align: center;
         color: #383838;
         align-items: center;
-    
         }
         .headline {
         font-style: normal;
@@ -1321,16 +1664,6 @@ header {
         margin-bottom: 35px;
         width: 214px;
         height: 104px;
-        }
-        .container_heading {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        width: 360px;
-        }
-        .top {
-        display: none;
         }
         .heading_about {
         text-decoration: none;
