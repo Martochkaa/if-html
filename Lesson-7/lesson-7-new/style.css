@@ -35,26 +35,26 @@
     }
 
 header {
-    max-width: 1440px;
+    width: 90%;
     padding: 51px 16px 0;
-    margin-left: 104px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
 }
 .container_heading {
-    width: 72%;
+    width: 60%;
+    margin-left: 104px;
 }
 .logo {
     width: 205px;
     height: 40px;
 }
 .stays {
-    width: 7%;
+    width: 59px;
 }
 .attractions{
-    width: 13%;
+    width: 118px;
 }
 .header_link {
     font-size: 24px;
@@ -545,42 +545,23 @@ header {
         height: 40px;
         background: #F3F3F4;
         position: absolute;
-        left: 92%;
+        left: 93%;
         top: 27%;
         display: inline-block;
         border-radius: 50%;
         }
     .Homes_guests_loves > .hotels {
        position: relative;}
-    .hotel_leopold {
+    .hotel_container {
         height: 385px;
         width: 246px;
-    }
-    .leopold_img {
-        height: 246px;
-        width: 246px;
-    }
-    .apartment_sunshine {
-        height: 385px;
-        width: 246px;
-    }
-    .sunshine_img {
-        height: 246px;
-        width: 246px;}
-
-    .villa_kunerad {
-        height: 385px;
-        width: 246px;   
     }
     .kunerad_img {
        height: 246px;
         width: 246px;
     }
-    .hostel_friendship {
-        height: 385px;
-        width: 246px; 
-    }
-    .frendship_img {
+
+    .hotel_img {
         height: 246px;
         width: 246px;
     }
@@ -735,7 +716,7 @@ header {
 }
 .close {
     position: absolute;
-    width: 32px;
+    width: 2px;
     height: 32px;
     opacity: 0.3;
     left: 88%;
@@ -829,7 +810,7 @@ header {
     margin-top: -57px;
     background-color: rgba(56, 56, 56, 0.7);
     position: absolute;
-    width: 15.3%;
+    width: 407px
 }
 .price_text {
     font-family: Roboto;
@@ -927,7 +908,7 @@ h3 {
     margin: 24px;
 }
 .Ubud, .King_Kong, .Rokoko {
-    width: 15%;
+    width: 400px;
 }
 .King_img, .Ubud_img, .Rokoko_img {
     width: 102%;
@@ -1299,6 +1280,9 @@ h3 {
             font-size: 15px;
             line-height: 18px;
             width: 159px;
+        }
+        .container_heading {
+            margin-left: 0px;
         }
         
     }
